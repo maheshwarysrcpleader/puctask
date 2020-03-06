@@ -1,0 +1,12 @@
+
+Version: v1
+kind: Service
+metadata:
+  name: java-app-service
+spec:
+  ports:
+    targetport: 8080
+    port: 80
+  type: NodePort
+  selector:
+    apps: sample-app-containerddi:set paste

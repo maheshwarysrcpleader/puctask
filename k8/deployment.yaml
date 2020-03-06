@@ -1,0 +1,18 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: sample-java-deployment
+  labels:
+    apps: sample-java-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        apps: java-app-container
+    spec:
+      containers:
+      - name: java-app-container
+        image: 810877976727.dkr.ecr.us-east-1.amazonaws.com/newjava:latest
+        ports:
+        - containerPort: 8080
