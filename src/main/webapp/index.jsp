@@ -8,8 +8,8 @@
 <body>
 	<h1>WAR Web Service</h1>
 	<ul>
-		<li><a href="I Love My India">http://localhost:8080/wwp-1.0.0/webapi/service</a></li>
-		<li><a href="I Love My Mother">http://localhost:8080/wwp-1.0.0/webapi/service/hello</a></li>
+		<li><a href="I Love My India">I Love India</a></li>
+		<li><a href="I Love My Mother">I Love My Puc</a></li>
 	</ul>
 </body>
 </html>
