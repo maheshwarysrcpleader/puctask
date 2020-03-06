@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: java-app-container
-        image: 810877976727.dkr.ecr.us-east-1.amazonaws.com/newjava:latest
+        image: 810877976727.dkr.ecr.us-east-1.amazonaws.com/newrepo:latest
         ports:
         - containerPort: 8080
